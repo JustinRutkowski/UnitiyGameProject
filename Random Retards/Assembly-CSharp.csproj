@@ -121,8 +121,10 @@
      <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
      <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
      <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\PlayerNetwork.cs" />
      <Compile Include="Assets\Scripts\PhotonNetworkManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerControler.cs" />
+     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
      <None Include="Assets\Photon Unity Networking\link.xml" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
