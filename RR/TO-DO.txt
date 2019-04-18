@@ -1,0 +1,5 @@
+Animationen:
+	rechts-links-Lehnen
+	hinlegen (inkl. nachladen)
+	springen
+	turn animation
