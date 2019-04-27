@@ -1,0 +1,12 @@
+Animationen:
+	hinlegen (inkl. nachladen)
+	springen
+	turn animation
+
+GunPlay:
+	die letzten Tutorials implementieren
+
+anderes:
+	Map
+	Multiplayer
+	Basis AI

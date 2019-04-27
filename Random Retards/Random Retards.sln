@@ -1,11 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random Retards", "Assembly-CSharp.csproj", "{56815C88-1939-B7D3-A9F0-1BF2DA6442FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random Retards", "Assembly-CSharp-firstpass.csproj", "{3628E68E-B86A-7174-B5D6-490CCF4EA780}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random Retards", "Assembly-CSharp-Editor.csproj", "{B737BFC2-A6B4-6961-E644-C9240A49B483}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{56815C88-1939-B7D3-A9F0-1BF2DA6442FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,19 +13,8 @@ Global
 		{56815C88-1939-B7D3-A9F0-1BF2DA6442FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56815C88-1939-B7D3-A9F0-1BF2DA6442FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56815C88-1939-B7D3-A9F0-1BF2DA6442FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3628E68E-B86A-7174-B5D6-490CCF4EA780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3628E68E-B86A-7174-B5D6-490CCF4EA780}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3628E68E-B86A-7174-B5D6-490CCF4EA780}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3628E68E-B86A-7174-B5D6-490CCF4EA780}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B737BFC2-A6B4-6961-E644-C9240A49B483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B737BFC2-A6B4-6961-E644-C9240A49B483}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B737BFC2-A6B4-6961-E644-C9240A49B483}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B737BFC2-A6B4-6961-E644-C9240A49B483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
