@@ -46,9 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1d3409013b7323479955a99d9f5dfa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 75
+  speed: 300
   timeToLive: 10
   damage: 1
+  bulletHole: {fileID: 3808379538287518436, guid: 50c30acf3c1cac54b8856b1c134d043c,
+    type: 3}
 --- !u!54 &54732152004872344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64,7 +66,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!1 &1163186133700412
 GameObject:
   m_ObjectHideFlags: 0

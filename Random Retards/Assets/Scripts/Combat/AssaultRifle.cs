@@ -16,7 +16,7 @@ public class AssaultRifle : Shooter {
 
     public void Update()
     {
-        if (GameManager.Instance.InputController.Reload)
+        if (GameManager.Instance.InputController.IsReloading)
         {
             Reload();
         }

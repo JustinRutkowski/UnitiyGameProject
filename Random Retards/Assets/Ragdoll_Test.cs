@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ragdoll_Test : Destrucable
+public class Ragdoll_Test : Destructable
 {
     public Animator animator;
     private Rigidbody[] bodyParts;

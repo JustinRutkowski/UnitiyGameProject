@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : Destrucable
+public class PlayerHealth : Destructable
 {
     [SerializeField] SpawnPoint[] spawnPoints;
 

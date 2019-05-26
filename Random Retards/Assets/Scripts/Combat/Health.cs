@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : Destrucable {
+public class Health : Destructable {
 
     [SerializeField] float inSeconds;
 

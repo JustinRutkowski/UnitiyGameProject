@@ -8,25 +8,31 @@ ScriptsOnlyBuild:
     - PlayerAim
     - PlayerAnimation
     - PlayerHealth
+    - PlayerMove
+    - PlayerNetwork
     - PlayerScript
     - PlayerShoot
     - PlayerState
     - Projectile
     - Ragdoll_Test
     - SpawnPoint
+    - SwatSoilder
     - ThridPersonCamera
+    - WeaponRecoil
     - WeaponReloader
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
+    - UnityEngine.Networking.NetworkManager
+    - UnityEngine.Networking.NetworkManagerHUD
   sceneClasses:
     RR.unity:
     - Class: 1
@@ -84,41 +90,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9300}
     - Class: 114
-      Script: {instanceID: 9332}
+      Script: {instanceID: 9312}
     - Class: 114
-      Script: {instanceID: 9342}
+      Script: {instanceID: 9334}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9344}
     - Class: 114
-      Script: {instanceID: 9364}
+      Script: {instanceID: 9348}
     - Class: 114
-      Script: {instanceID: 9468}
+      Script: {instanceID: 9366}
     - Class: 114
-      Script: {instanceID: 9680}
+      Script: {instanceID: 9396}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 9812}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9894}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 10012}
+      Script: {instanceID: 9452}
     - Class: 114
-      Script: {instanceID: 10020}
+      Script: {instanceID: 9470}
     - Class: 114
-      Script: {instanceID: 10112}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 10304}
+      Script: {instanceID: 9768}
     - Class: 114
-      Script: {instanceID: 10306}
+      Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 10396}
+      Script: {instanceID: 9896}
     - Class: 114
-      Script: {instanceID: 10408}
+      Script: {instanceID: 9980}
     - Class: 114
-      Script: {instanceID: 10830}
+      Script: {instanceID: 10018}
     - Class: 114
-      Script: {instanceID: 10856}
+      Script: {instanceID: 10026}
+    - Class: 114
+      Script: {instanceID: 10084}
+    - Class: 114
+      Script: {instanceID: 10118}
+    - Class: 114
+      Script: {instanceID: 10310}
+    - Class: 114
+      Script: {instanceID: 10312}
+    - Class: 114
+      Script: {instanceID: 10402}
+    - Class: 114
+      Script: {instanceID: 10414}
+    - Class: 114
+      Script: {instanceID: 10602}
+    - Class: 114
+      Script: {instanceID: 10838}
+    - Class: 114
+      Script: {instanceID: 10850}
+    - Class: 114
+      Script: {instanceID: 10864}
+    - Class: 114
+      Script: {instanceID: 10916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -131,18 +159,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 144
       Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 193
       Script: {instanceID: 0}
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     - Class: 258
+      Script: {instanceID: 0}
+    - Class: 1953259897
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: d7bb4107e66b0b8682cf7049cd7132dc
+      Hash: bd2c69650ce9f8bd5405ec5b3358dd75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shooter
@@ -172,7 +216,7 @@ ScriptsOnlyBuild:
     className: Respawner
   - hash:
       serializedVersion: 2
-      Hash: 1d3ce72478036b212eee429952e095d9
+      Hash: 69159a479660db1910bdc269147bda8c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Projectile
@@ -184,7 +228,7 @@ ScriptsOnlyBuild:
     className: PlayerState
   - hash:
       serializedVersion: 2
-      Hash: bc4ae3373b289e48bdaa7afc184a53e7
+      Hash: 1a71e9fb0bee7815f755e664e6dcb54e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputController
@@ -208,6 +252,12 @@ ScriptsOnlyBuild:
     className: ArmModel
   - hash:
       serializedVersion: 2
+      Hash: a4e3b9fd64807444baae8c683e773af8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeaponRecoil
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -220,13 +270,13 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 195001d341424cca9e6b5c1e97722a19
+      Hash: 89e922bb5602ecf2d5a997d98e2f0c59
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ThridPersonCamera
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 241959c98dede6556ed982add6c0dbef
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerAnimation
@@ -742,6 +792,18 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
+      Hash: dc34925dace29e8febaafccb2dc9e927
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ragdoll
+  - hash:
+      serializedVersion: 2
+      Hash: 88e48595ee6544bd856ecb4d94ecdb06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SwatSoilder
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -805,7 +867,7 @@ ScriptsOnlyBuild:
       Hash: 8679ce48dd804e852cdbb0cd203d7e3d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Destrucable
+    className: Destructable
   - hash:
       serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
@@ -838,7 +900,7 @@ ScriptsOnlyBuild:
     className: PlayerShoot
   - hash:
       serializedVersion: 2
-      Hash: aac99079faee2b3402252a074d325343
+      Hash: 9c6b88ed26ee5827d39386b3d900534e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Crosshair
@@ -892,7 +954,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 0ddd8afb119332fa1bd26e4dbab2f8cb
+      Hash: 17ee9e9e85d397f3de216e993ae12106
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -926,6 +988,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMove
   - hash:
       serializedVersion: 2
       Hash: 1dcb82730d983b77cec736c6ef19f814
@@ -988,7 +1056,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: d7bb4107e66b0b8682cf7049cd7132dc
+      Hash: bd2c69650ce9f8bd5405ec5b3358dd75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AssaultRifle
@@ -1006,6 +1074,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerNetwork
+  - hash:
+      serializedVersion: 2
       Hash: b59036da9a38107fdb01966bc1dfcfb0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1019,4 +1093,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - RR.unity
-  playerPath: C:/Users/jussi/Desktop/Random Retards/Exe/Random Retards.exe
+  playerPath: C:/Users/jussi/UnitiyGameProject/Neuer Ordner/Random Retards.exe
